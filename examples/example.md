@@ -1,4 +1,4 @@
-# Markdown++
+# mdpp
 
 <!-- This comment will be untouched -->
 
@@ -17,7 +17,7 @@ the markdown table to only the spcified number of rows *this excludes the header
 
 This can also be done on one line
 
-<!-- #csv "file.csv".rows(5) -->
+<!-- #csv "file.csv".rows(5).columns("Index", "First Name", "Last Name") -->
 
 
 ## importing files
@@ -30,6 +30,6 @@ the following comment will be replaced with the raw contents of the spcified fil
 ## importing markdown
 
 the following comment will be replaced with the contents of the spcified file. However,
-this allows for the parsing of markdown++ features
+this allows for the contents od the file to be pre-processed first
 
 <!-- #markdown "markdownpp_file.md" -->
